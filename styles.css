@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  text-align: center;
+}
+/* Not entirely sure why I had to do this. */
+#bg {
+  background: url(./images/pexels-felix-mittermeier-957061.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+#navbar {
+  z-index: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: rgba(36, 6, 143, 0.7);
+
+  height: 7.5vh;
+  width: 100%;
+}
+#navbar a {
+  float: left;
+  text-align: left;
+  font-size: 3vh;
+  padding: 1.5vh 5vw;
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald", "Lucida Sans", sans-serif;
+}
+
+h1#title {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 33%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(36, 6, 143, 0.7);
+  border-width: 1vh 1vh;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: white;
+  font-family: "Oswald", "Lucida Sans", sans-serif;
+  font-size: 5vh;
+}
+
+#icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 33%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(36, 6, 143, 0.7);
+  height: 10vh;
+  width: auto;
+  background: rgba(255, 255, 255, 0);
+}
+#icons img {
+  height: 100%;
+  width: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
